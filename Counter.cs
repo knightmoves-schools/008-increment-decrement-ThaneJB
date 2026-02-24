@@ -9,7 +9,7 @@ public class Counter
     public static int PrefixDecrement;
     public static int PostfixDecrement;
 
-    public void Counter()
+    public void Count()
     {
         PrefixIncrement("Visitors", ++Visitors);
         PostfixIncrement("Visitors",Visitors++);
